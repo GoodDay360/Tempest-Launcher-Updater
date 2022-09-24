@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgur Auth</title>
+</head>
+<body>
+    <div id="main">
+        <h2>Imgur is Successfully Authed</h2>
+        <div id="frame">
+            <p>
+                Your session is saved.<br>You can return back to Tempest Launcher.
+            </p>
+        </div>
+    </div>
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: "poppins", sans-serif;
+        box-sizing: border-box;
+        background-attachment: fixed;
+        
+    }
+    body{
+        background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+        height: 100%;
+        width: auto;
+        display: grid;
+    }
+    #main{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    #main h2{
+        text-align: center;
+        font-size: 55px;
+        color:white;
+        width: auto;
+        height: auto;
+        margin-bottom: 90px;
+    }
+    #frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.35);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    #frame p{
+        width: auto;
+        height: auto;
+        padding: 25px;
+        margin-top: 15px;margin-bottom: 15px;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+
+</style>
+
+</html>
