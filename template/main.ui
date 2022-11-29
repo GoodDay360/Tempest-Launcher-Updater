@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1083</width>
-    <height>758</height>
+    <width>1121</width>
+    <height>678</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -194,19 +194,24 @@ border-radius:10px;</string>
 	border:none;
 	background-color:rgb(32, 34, 37);
 }
+
 QScrollBar:horizontal{
 	height:10px
 }
 QScrollBar:vertical{
 	width:10px
 }
+
 QScrollBar::handle{
-	background-color:rgb(32, 34, 37);
+	background-color:rgb(54, 57, 63);
 	border-radius:5px;
 }
 QScrollBar::handle:hover{
 	background-color:rgb(54, 57, 63);
+	border-radius:5px;
+	border:1px solid grey;
 }
+
 QScrollBar::sub-line,QScrollBar::add-line{
 	background:rgb(32, 34, 37);
 	border:none;
@@ -226,7 +231,7 @@ QScrollBar::add-page, QScrollBar::sub-page{
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>820</width>
+           <width>858</width>
            <height>70</height>
           </rect>
          </property>
@@ -734,7 +739,7 @@ text-decoration: underline;
       <string notr="true"/>
      </property>
      <property name="currentIndex">
-      <number>8</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="optionTab">
       <property name="styleSheet">
@@ -766,8 +771,8 @@ outline:none;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>1043</width>
-            <height>648</height>
+            <width>760</width>
+            <height>490</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayout_7">
@@ -1551,7 +1556,8 @@ background-color:rgb(54, 57, 63);</string>
                      </property>
                      <property name="styleSheet">
                       <string notr="true">color:rgb(185, 187, 190);
-font:16px;</string>
+font:16px;
+padding-left:10px;</string>
                      </property>
                      <property name="text">
                       <string>Tempest Account</string>
@@ -1584,7 +1590,7 @@ font:16px;</string>
                <property name="styleSheet">
                 <string notr="true">QScrollBar{
 	border:none;
-	background-color:rgb(54, 57, 63);
+	background-color:rgb(47, 49, 54);
 }
 QScrollBar:horizontal{
 	height:10px
@@ -1593,14 +1599,15 @@ QScrollBar:vertical{
 	width:10px
 }
 QScrollBar::handle{
-	background-color:rgb(54, 57, 63);
+	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
 QScrollBar::handle:hover{
 	background-color:rgb(32, 34, 37);
+	border: 1px solid black;
 }
 QScrollBar::sub-line,QScrollBar::add-line{
-	background:rgb(54, 57, 63);
+	background:rgb(47, 49, 54);;
 	border:none;
 }
 QScrollBar::add-page, QScrollBar::sub-page{
@@ -1693,7 +1700,7 @@ QScrollBar::add-page, QScrollBar::sub-page{
                       </property>
                       <property name="maximumSize">
                        <size>
-                        <width>260</width>
+                        <width>16777215</width>
                         <height>50</height>
                        </size>
                       </property>
@@ -1720,7 +1727,7 @@ border-bottom-right-radius:0px;
 }
 QPushButton:hover {
 background-color:green;
-border-width: 4px;
+border: 0;
 }</string>
                       </property>
                       <property name="text">
@@ -1754,7 +1761,7 @@ border-width: 4px;
                       </property>
                       <property name="maximumSize">
                        <size>
-                        <width>260</width>
+                        <width>16777215</width>
                         <height>50</height>
                        </size>
                       </property>
@@ -1777,7 +1784,7 @@ border:1px solid black;
 }
 QPushButton:hover {
 background-color:green;
-border-width: 4px;
+border: 0;
 }</string>
                       </property>
                       <property name="text">
@@ -1811,7 +1818,7 @@ border-width: 4px;
                       </property>
                       <property name="maximumSize">
                        <size>
-                        <width>260</width>
+                        <width>16777215</width>
                         <height>50</height>
                        </size>
                       </property>
@@ -1838,7 +1845,7 @@ border-bottom-right-radius:10px;
 }
 QPushButton:hover {
 background-color:rgb(237, 66, 69);
-border-width: 4px;
+border: 0;
 }</string>
                       </property>
                       <property name="text">
@@ -2621,6 +2628,9 @@ font:18px;</string>
 border-bottom-right-radius:10px;
 outline:none;</string>
          </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
          <widget class="QWidget" name="homeWid">
           <layout class="QVBoxLayout" name="verticalLayout_15">
            <property name="spacing">
@@ -2683,11 +2693,12 @@ QScrollBar:horizontal{
 	height:10px
 }
 QScrollBar::handle{
-	background-color:rgb(54, 57, 63);
+	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
 QScrollBar::handle:hover{
 	background-color:rgb(32, 34, 37);
+	border:1px solid black;
 }
 QScrollBar::sub-line,QScrollBar::add-line{
 	background:rgb(54, 57, 63);
@@ -2708,7 +2719,7 @@ QScrollBar::add-page, QScrollBar::sub-page{
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>816</width>
+                <width>854</width>
                 <height>100</height>
                </rect>
               </property>
@@ -2874,10 +2885,10 @@ background-color:rgb(37, 37, 37);
             <number>0</number>
            </property>
            <property name="rightMargin">
-            <number>0</number>
+            <number>5</number>
            </property>
            <property name="bottomMargin">
-            <number>0</number>
+            <number>5</number>
            </property>
            <item>
             <widget class="QScrollArea" name="scrollArea_3">
@@ -2893,11 +2904,12 @@ QScrollBar:vertical{
 	width:10px
 }
 QScrollBar::handle{
-	background-color:rgb(54, 57, 63);
+	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
 QScrollBar::handle:hover{
 	background-color:rgb(32, 34, 37);
+	border: 1px solid black;
 }
 QScrollBar::sub-line,QScrollBar::add-line{
 	background:rgb(54, 57, 63);
@@ -3049,7 +3061,7 @@ padding:25px;</string>
                     </layout>
                    </widget>
                   </item>
-                  <item>
+                  <item alignment="Qt::AlignTop">
                    <widget class="QFrame" name="frame_9">
                     <property name="minimumSize">
                      <size>
@@ -3065,13 +3077,13 @@ padding:25px;</string>
                     </property>
                     <layout class="QVBoxLayout" name="verticalLayout_8">
                      <property name="spacing">
-                      <number>50</number>
+                      <number>20</number>
                      </property>
                      <property name="leftMargin">
                       <number>0</number>
                      </property>
                      <property name="topMargin">
-                      <number>300</number>
+                      <number>0</number>
                      </property>
                      <property name="rightMargin">
                       <number>0</number>
@@ -3079,12 +3091,12 @@ padding:25px;</string>
                      <property name="bottomMargin">
                       <number>0</number>
                      </property>
-                     <item>
+                     <item alignment="Qt::AlignBottom">
                       <widget class="QFrame" name="frame_12">
                        <property name="minimumSize">
                         <size>
                          <width>0</width>
-                         <height>150</height>
+                         <height>200</height>
                         </size>
                        </property>
                        <property name="maximumSize">
@@ -3100,6 +3112,9 @@ padding:25px;</string>
                         <enum>QFrame::Raised</enum>
                        </property>
                        <layout class="QVBoxLayout" name="verticalLayout_9">
+                        <property name="spacing">
+                         <number>10</number>
+                        </property>
                         <property name="leftMargin">
                          <number>0</number>
                         </property>
@@ -3112,6 +3127,112 @@ padding:25px;</string>
                         <property name="bottomMargin">
                          <number>0</number>
                         </property>
+                        <item alignment="Qt::AlignHCenter">
+                         <widget class="QFrame" name="skinModelFrame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>200</width>
+                            <height>0</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>250</width>
+                            <height>40</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true"/>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_27">
+                           <property name="spacing">
+                            <number>0</number>
+                           </property>
+                           <property name="leftMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <item>
+                            <widget class="QPushButton" name="skinClassicBtn">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="cursor">
+                              <cursorShape>PointingHandCursor</cursorShape>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+	color:white;
+	font:12pt;
+	border-radius:0px;
+	background-color: rgb(32, 34, 37);
+	border: 1px solid black;
+}
+QPushButton:hover {
+	background-color:rgb(38, 41, 46);
+	border: 0;
+}
+QPushButton:pressed {
+	background-color:rgb(38, 41, 46);
+}</string>
+                             </property>
+                             <property name="text">
+                              <string>CLASSIC</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QPushButton" name="skinSlimBtn">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="cursor">
+                              <cursorShape>PointingHandCursor</cursorShape>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+	color:white;
+	font:12pt;
+	border-radius:0px;
+	background-color: rgb(32, 34, 37);
+	border: 1px solid black;
+}
+QPushButton:hover {
+	background-color:rgb(38, 41, 46);
+	border: 0;
+}
+QPushButton:pressed {
+	background-color:rgb(38, 41, 46);
+}</string>
+                             </property>
+                             <property name="text">
+                              <string>SLIM</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
                         <item alignment="Qt::AlignHCenter">
                          <widget class="QLineEdit" name="browseSkinLE">
                           <property name="enabled">
@@ -3457,7 +3578,7 @@ padding:25px;</string>
             <widget class="QScrollArea" name="scrollArea_4">
              <property name="styleSheet">
               <string notr="true">QScrollBar{
-	border: none;
+	border:none;
 	background-color:rgb(54, 57, 63);
 }
 QScrollBar:horizontal{
@@ -3467,11 +3588,12 @@ QScrollBar:vertical{
 	width:10px
 }
 QScrollBar::handle{
-	background-color:rgb(54, 57, 63);
+	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
 QScrollBar::handle:hover{
 	background-color:rgb(32, 34, 37);
+	border: 1px solid black;
 }
 QScrollBar::sub-line,QScrollBar::add-line{
 	background:rgb(54, 57, 63);
@@ -3985,8 +4107,8 @@ outline:none;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>1033</width>
-            <height>638</height>
+            <width>650</width>
+            <height>460</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_22">
@@ -4352,7 +4474,7 @@ background-color:rgb(37, 37, 37);
              <item>
               <widget class="QStackedWidget" name="modpackStackedWid">
                <property name="currentIndex">
-                <number>1</number>
+                <number>0</number>
                </property>
                <widget class="QWidget" name="modpackListWid">
                 <layout class="QGridLayout" name="gridLayout_12">
@@ -4379,7 +4501,7 @@ background-color:rgb(37, 37, 37);
                    <property name="styleSheet">
                     <string notr="true">QScrollBar{
 	border:none;
-	background-color:rgb(47, 49, 54);
+	background-color:rgb(54, 57, 63);
 }
 
 QScrollBar:horizontal{
@@ -4392,6 +4514,11 @@ QScrollBar:vertical{
 QScrollBar::handle{
 	background-color:rgb(32, 34, 37);
 	border-radius:5px;
+}
+QScrollBar::handle:hover{
+	background-color:rgb(32, 34, 37);
+	border-radius:5px;
+	border:1px solid black;
 }
 
 QScrollBar::sub-line,QScrollBar::add-line{
@@ -4567,6 +4694,15 @@ border-bottom-left-radius:10px;
 outline:none;</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_13">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>5</number>
+       </property>
        <property name="bottomMargin">
         <number>0</number>
        </property>
@@ -4578,23 +4714,28 @@ outline:none;</string>
          <property name="styleSheet">
           <string notr="true">QScrollBar{
 	border:none;
-	background-color:rgb(32, 34, 37);
+	background-color:rgb(54, 57, 63);
 }
+
 QScrollBar:horizontal{
 	height:10px
 }
 QScrollBar:vertical{
 	width:10px
 }
+
 QScrollBar::handle{
 	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
 QScrollBar::handle:hover{
-	background-color:rgb(54, 57, 63);
+	background-color:rgb(32, 34, 37);
+	border-radius:5px;
+	border:1px solid black;
 }
+
 QScrollBar::sub-line,QScrollBar::add-line{
-	background:rgb(32, 34, 37);
+	background:rgb(54, 57, 63);
 	border:none;
 }
 QScrollBar::add-page, QScrollBar::sub-page{
@@ -4609,8 +4750,8 @@ QScrollBar::add-page, QScrollBar::sub-page{
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>1061</width>
-            <height>677</height>
+            <width>750</width>
+            <height>612</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_39">
@@ -5306,7 +5447,7 @@ outline:none;</string>
         <number>0</number>
        </property>
        <property name="rightMargin">
-        <number>0</number>
+        <number>5</number>
        </property>
        <property name="bottomMargin">
         <number>0</number>
@@ -5316,23 +5457,28 @@ outline:none;</string>
          <property name="styleSheet">
           <string notr="true">QScrollBar{
 	border:none;
-	background-color:rgb(32, 34, 37);
+	background-color:rgb(54, 57, 63);
 }
+
 QScrollBar:horizontal{
 	height:10px
 }
 QScrollBar:vertical{
 	width:10px
 }
+
 QScrollBar::handle{
 	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
 QScrollBar::handle:hover{
-	background-color:rgb(54, 57, 63);
+	background-color:rgb(32, 34, 37);
+	border-radius:5px;
+	border:1px solid black;
 }
+
 QScrollBar::sub-line,QScrollBar::add-line{
-	background:rgb(32, 34, 37);
+	background:rgb(54, 57, 63);
 	border:none;
 }
 QScrollBar::add-page, QScrollBar::sub-page{
@@ -5347,8 +5493,8 @@ QScrollBar::add-page, QScrollBar::sub-page{
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>1083</width>
-            <height>688</height>
+            <width>750</width>
+            <height>612</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_38">
@@ -6528,7 +6674,7 @@ background-color:rgb(37, 37, 37);
        <item>
         <widget class="QStackedWidget" name="modStackedWid">
          <property name="currentIndex">
-          <number>1</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="modWid">
           <layout class="QGridLayout" name="gridLayout_16">
@@ -6565,6 +6711,11 @@ QScrollBar:vertical{
 QScrollBar::handle{
 	background-color:rgb(32, 34, 37);
 	border-radius:5px;
+}
+QScrollBar::handle:hover{
+	background-color:rgb(32, 34, 37);
+	border-radius:5px;
+	border:1px solid black;
 }
 
 QScrollBar::sub-line,QScrollBar::add-line{
@@ -8277,6 +8428,11 @@ QScrollBar::handle{
 	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
+QScrollBar::handle:hover{
+	background-color:rgb(32, 34, 37);
+	border-radius:5px;
+	border:1px solid black;
+}
 
 QScrollBar::sub-line,QScrollBar::add-line{
 	background:rgb(54, 57, 63);
@@ -8294,8 +8450,8 @@ QScrollBar::add-page, QScrollBar::sub-page{
                      <rect>
                       <x>0</x>
                       <y>0</y>
-                      <width>652</width>
-                      <height>487</height>
+                      <width>234</width>
+                      <height>80</height>
                      </rect>
                     </property>
                     <layout class="QVBoxLayout" name="verticalLayout_31">
@@ -8309,7 +8465,7 @@ QScrollBar::add-page, QScrollBar::sub-page{
                       <number>0</number>
                      </property>
                      <property name="rightMargin">
-                      <number>0</number>
+                      <number>5</number>
                      </property>
                      <property name="bottomMargin">
                       <number>0</number>
@@ -8749,6 +8905,11 @@ QScrollBar::handle{
 	background-color:rgb(32, 34, 37);
 	border-radius:5px;
 }
+QScrollBar::handle:hover{
+	background-color:rgb(32, 34, 37);
+	border-radius:5px;
+	border:1px solid black;
+}
 
 QScrollBar::sub-line,QScrollBar::add-line{
 	background:rgb(54, 57, 63);
@@ -8766,8 +8927,8 @@ QScrollBar::add-page, QScrollBar::sub-page{
                        <rect>
                         <x>0</x>
                         <y>0</y>
-                        <width>348</width>
-                        <height>144</height>
+                        <width>265</width>
+                        <height>207</height>
                        </rect>
                       </property>
                       <property name="styleSheet">
